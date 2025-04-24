@@ -6,10 +6,25 @@ This is a Java Swing-based application that allows users to paste an image from 
 
 ## Prerequisites
 
-- Java 8 or higher
+- Java 17 or higher
 - Maven 3.6 or higher
 
 ## How to Run
+
+### For Linux or macOS:
+   - Download the [JAR file](https://github.com/wehnerm/barcode-reader-app-swing-gui/releases/download/0.1.0/barcode-reader-app-0.1.0.jar) and the [`run.sh` script]().
+   - Place them in the same directory.
+   - Make the script executable: `chmod +x run.sh`.
+   - Double-click the script to run the application.
+
+### For Windows:
+   - Download the [JAR file](https://github.com/wehnerm/barcode-reader-app-swing-gui/releases/download/0.1.0/barcode-reader-app-0.1.0.jar) and the `run.bat` script.
+   - Place them in the same directory.
+   - Double-click the script to run the application.
+
+#### Notes
+   - Ensure Java is installed and added to your system's PATH.
+   - The JAR file (`barcode-reader-app-0.1.0.jar`) must be in the same directory as the script.
 
 ### From source code
 
@@ -23,6 +38,7 @@ This is a Java Swing-based application that allows users to paste an image from 
    ```bash
    java -jar target/barcode-reader-app-0.1.0.jar
     ```
+   or use the provided `run.sh` or `run.bat` scripts.
    
 ## Debugging
 
